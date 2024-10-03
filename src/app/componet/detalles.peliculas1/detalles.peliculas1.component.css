@@ -1,0 +1,31 @@
+.card {
+    width: 18rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Cambia a 'row' si deseas que estén en fila */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente (si es necesario) */
+    height: 100vh; /* O la altura que necesites */
+    background-color: #d3d3d3; /* Color plomo */
+  }
+  
+  .card {
+    background-color: white; /* Color del fondo del card */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    padding: 16px; /* Espaciado interno */
+    margin: 16px; /* Espaciado externo */
+    width: 300px; /* Ancho del card */
+    text-align: center; /* Centra el texto dentro del card */
+  }

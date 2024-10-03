@@ -1,0 +1,33 @@
+<div class="small-height-wrapper">
+    <header class="masthead text-center text-white custom-header">
+      <div class="masthead-content">
+        <div class="container px-5">
+          <h1 class="masthead-heading mb-0">pelis</h1>
+          <h1 class="masthead-heading mb-0">Contactos</h1>
+          
+          <br>
+          <h1 class="masthead-heading mb-0">cine</h1>
+          <h2 class="masthead-subheading mb-0">ITSQMET</h2>
+        </div>
+      </div>
+      <div class="bg-circle-1 bg-circle"></div>
+      <div class="bg-circle-2 bg-circle"></div>
+      <div class="bg-circle-3 bg-circle"></div>
+      <div class="bg-circle-4 bg-circle"></div>
+    </header>
+  </div>
+
+
+
+
+<button class="button-modo-oscuro" (click)="vista()">MODO OSCURO</button>
+
+
+
+@if(nocturno== true){
+    <app-tabla1></app-tabla1>
+
+}@else {
+    <app-tabla2></app-tabla2>
+
+}
